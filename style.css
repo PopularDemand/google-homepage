@@ -1,0 +1,119 @@
+body {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+header {
+  text-align: right;
+  width: 100%;
+  margin-top: 5px;
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+.header-nav {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+#apps-logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  background-position: -132px -38px;
+  background-size: 528px 68px;
+}
+
+#sign-in {
+  color: white;
+  background-color: #4285f4;
+  padding: 8px;
+  border-radius: 2px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  height: 40px;
+  padding: 3px;
+  width: 100%;
+  border-top: solid 1px #e6e6e6;
+  opacity: 0.75;
+}
+
+#footer-first {
+  text-align: left;
+  display: block;
+  width: 50%;
+  float: left;
+}
+
+#footer-second {
+  text-align: right;
+  display: block;
+  width: 50%;
+  float: right;
+}
+
+.footer-nav {
+  text-decoration: none;
+  margin: 5px;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+  height: 92;
+  width: 272;
+  padding-top: 109px;
+}
+
+form {
+  padding: 30px;
+  text-align: center;
+  padding-bottom: 109px;
+}
+
+#text-bar {
+  display: inline;
+  width: 450px;
+  margin: auto;
+  height: 35px;
+  border: solid 1px #e6e6e6;
+  border-radius: 1px;
+  margin-bottom: 30px;
+}
+
+#text-bar:hover{
+  border: solid 1px #757575;
+}
+
+#text-bar:focus {
+  border: 1px solid #4d90fe;
+}
+
+.button {
+  height: 36px;
+  min-width: 54px;
+  line-height: 27px;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  background-color: #f2f2f2;
+}
+
+.button:hover {
+    border: 1px solid #757575;
+    color: black;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  opacity: 100%;
+}
